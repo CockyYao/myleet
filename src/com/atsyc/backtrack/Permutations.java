@@ -1,4 +1,4 @@
-package algorithm.src.com.atsyc.backtrack;
+package com.atsyc.backtrack;
 
 import java.util.ArrayList;
 import java.util.List;

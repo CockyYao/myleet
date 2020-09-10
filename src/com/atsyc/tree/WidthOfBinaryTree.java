@@ -1,4 +1,4 @@
-package algorithm.src.com.atsyc.tree;
+package com.atsyc.tree;
 
 import java.util.LinkedList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package algorithm.src.com.atsyc.day;
+package com.atsyc.day;
 
 import java.util.ArrayList;
 import java.util.List;

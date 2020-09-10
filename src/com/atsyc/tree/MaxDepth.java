@@ -1,4 +1,4 @@
-package algorithm.src.com.atsyc.tree;
+package com.atsyc.tree;
 
 /**
  * Created by doubleyao on 2020-09-09.

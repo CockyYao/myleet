@@ -1,4 +1,4 @@
-package algorithm.src.com.atsyc.tree;
+package com.atsyc.tree;
 
 import java.util.ArrayList;
 import java.util.List;
