@@ -9,7 +9,7 @@ public class T4 {
     public boolean exist(char[][] board, String word) {
 
 
-
+        return false;
     }
 
 
