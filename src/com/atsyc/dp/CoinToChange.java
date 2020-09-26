@@ -2,9 +2,29 @@ package com.atsyc.dp;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Set;
 
 /**
+ *
+ *  https://www.jianshu.com/p/ca326326c530
+ *  假设有m种硬币 {v1,v2,...,vm} 组成sum
+ *
+ *
+ *
+ *  假设根据最后一个vm的系数，系数取值范围是:{0,1,2,...,k},其中k=sum/vm
+ *
+ *  sum = x1 * v1 + x2 * v2 + ... + 0 * vm
+ *  sum = x1 * v1 + x2 * v2 + ... + 1 * vm
+ *  sum = x1 * v1 + x2 * v2 + ... + 2 * vm
+ *  ...
+ *  sum = x1 * v1 + x2 * v2 + ... + k * vm
+ *
+ *  dp[i][sum] 表示i种硬币，组合成sum的方式
+ *
+ *  递推公式
+ *
+ *  dp[i][sum] = dp[i-1][sum] + dp[i-1][sum-vm] + dp[i-1][sum-2*vm] + ... + dp[i-1][sum-k*vm]
+ *
+ *
  * https://leetcode-cn.com/problems/coin-lcci/
  */
 public class CoinToChange {
@@ -59,31 +79,66 @@ public class CoinToChange {
     }
 
 
-    // dp[i][j] 使用前i种硬币计算j分的表示法种数 令coins=[25, 10, 5, 1]
-    // dp[i][j] = dp[i-1][j] + dp[i-1][j-coins[i]] + dp[i-1][j-2*coins[i]] + ... dp[i-1][j-k*coins[i]]
-    // j >= k*coins[i]
-    // dp[i][j-coins[i]] = dp[i-1][j-coins[i]] + dp[i-1][j-2*coins[i]] + ... dp[i-1][j-k*coins[i]]
-    // dp[i][j] - dp[i][j-coins[i]] = dp[i-1][j]
-    // dp[i][j] = dp[i][j-coins[i]] + dp[i-1][j]
+    private static final int[] coins = {1,5,10,25};
 
 
-    private static final int[] coins = {25, 10, 5, 1};
 
-    public static int change(int n) {
 
-        int[] dp = new int[n + 1];
-        dp[0] = 1;
-        for (int coin : coins) {
-            for (int i = coin; i <= n; i++) {
-                dp[i] = dp[i] + dp[i-coin];
+    // 求解所有的个数
+    public static int change1(int[] coins, int n) {
+
+        int[][] dp = new int[coins.length + 1][n + 1];
+        // 目标： dp[4][n]
+        // 初始化
+        for (int i = 1; i <= n; i++) {
+            dp[0][i] = 0; // 0种硬币 组成 i元
+        }
+        for (int i = 0; i <= coins.length; i++) {
+            dp[i][0] = 1;//i种硬币 组成 0元，只有一种，系数全部为0
+        }
+
+        for (int i = 1; i < coins.length + 1; i++) {
+            int coin = coins[i - 1];
+            for (int j = 1; j <= n; j++) {
+                if (j >= coin) {
+                    dp[i][j] = dp[i - 1][j] + dp[i][j - coin];
+                } else {
+                    dp[i][j] = dp[i - 1][j];
+                }
+
             }
         }
-        return dp[n];
+        return dp[coins.length][n];
     }
 
+
+    public static int change2(int[] coins, int n) {
+
+        int[][] dp = new int[coins.length + 1][n + 1];
+
+        for (int i = 1; i <= n; i++) {
+            dp[0][i] = 0; // 0种硬币 组成 i元
+        }
+        for (int i = 0; i < 5; i++) {
+            dp[i][0] = 1;//i种硬币 组成 0元，只有一种，系数全部为0
+        }
+
+        for (int i = 1; i <= coins.length; i++) {
+            int coin = coins[i - 1];
+            for (int j = 1; j <= n; j++) {
+                dp[i][j] = 0;
+                for (int k = 0; k <= n / coin; k++) {
+                    dp[i][j] = dp[i][j] + dp[i - 1][n - k * coin];
+                }
+            }
+        }
+        return dp[coins.length][n];
+    }
+
+
+
     public static void main(String[] args) {
-        System.out.println(waysToChange(61));
-        System.out.println(change(61));
+        System.out.println(change1(new int[]{5, 2, 1}, 11));
     }
 
 }
