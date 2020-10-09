@@ -62,8 +62,42 @@ public class Cutting {
         }
     }
 
+    // 大数越界情况下的求余问题
+    private static int cutting1(int n) {
+        if (n == 1 || n == 2) {
+            return 1;
+        }
+        if (n == 3) {
+            return 2;
+        }
+        long res = 0;
+        if (n % 3 == 0) {
+            res = pow(3, n / 3);
+        }
+        // 余数为1， 拿出一个3，凑成2+2
+        if (n % 3 == 1) {
+            int tmp = (pow(3, n / 3 - 1)) * 2 % 1000000007;
+            res = tmp * 2 % 1000000007;
+        }
+        // 余数为2
+        if (n % 3 == 2) {
+            res = (pow(3, n / 3)) * 2 % 1000000007;
+        }
+        return (int) res;
+    }
+
+    private static int pow(int a, int b) {
+        long res = 1;
+        for (int i = 0; i < b; i++) {
+            res = (res * a);
+            res = res % 1000000007;
+        }
+        int val = (int) res;
+        return val;
+    }
+
     public static void main(String[] args) {
-        System.out.println(cuttingRope(10));
+        System.out.println(cutting1(127));
     }
 
 
