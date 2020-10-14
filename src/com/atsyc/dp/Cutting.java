@@ -62,6 +62,18 @@ public class Cutting {
         }
     }
 
+    /*
+     * https://leetcode-cn.com/problems/jian-sheng-zi-ii-lcof/solution/mian-shi-ti-14-ii-jian-sheng-zi-iitan-xin-er-fen-f/
+     *
+     * 将长度为n的绳子切成a段，按照既有的数学结论:
+     *   1. 所有的绳段长度相等时，乘积最大
+     *   2. 最优的绳子长度为3
+     *
+     * 切分规则：
+     *  最优： 3 尽可能地切成多个长度为3的片段
+     *  次优： 2 最后一段绳子为2，直接保留
+     *  最差： 1 最后一段绳子为1，应把3+1 替换成2+2，因为2*2 > 3*1
+     * */
     // 大数越界情况下的求余问题
     private static int cutting1(int n) {
         if (n == 1 || n == 2) {

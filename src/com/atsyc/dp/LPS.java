@@ -47,13 +47,29 @@ public class LPS {
             dp[k][k] = 1;
         }
         int ans = -1;
+        // dp[i][j] 代表i 到 j 最大的子序列长度
 
+
+        /*
+         *  递推公式：
+         *
+         *  dp[i][j] 表示 最大子序列长度
+         *  i ---> j
+         *  dp[i][j] = ?
+         *      if(arr[i] == arr[j])
+         *          dp[i][j] = dp[i+1][j-1]+2
+         *      else
+         *          // 因为不相等，所以同时包含i,j的字符串 无法构成回文序列
+         *          dp[i][j] = max{dp[i][j-1],dp[i+1][j]}
+         *
+         *
+         * */
         for (int i = arr.length - 1; i >= 0; i--) {
             for (int j = i + 1; j < arr.length; j++) {
                 if (arr[i] == arr[j]) {
                     dp[i][j] = dp[i + 1][j - 1] + 2;
                 } else {
-                    dp[i][j] = dp[i][j] = Math.max(dp[i][j - 1], dp[i + 1][j]);
+                    dp[i][j] = Math.max(dp[i][j - 1], dp[i + 1][j]);
                 }
                 if (ans < dp[i][j]) {
                     ans = dp[i][j];

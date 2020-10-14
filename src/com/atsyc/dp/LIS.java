@@ -15,12 +15,15 @@ public class LIS {
      * if(dp[j] + 1 > dp[i] && A[i] >= A[j]){
      * dp[i] = dp[j] + 1;
      * }
+     *
      * dp[i] = max {1, dp[j] + 1} (j=1,2,3,...,i-1 && A[j] <= A[i])
+     * 根据上述的递推公式，就比较简单了，两层for循环
      */
     public static int LIS(int[] arr) {
         int ans = -1;
         int[] dp = new int[arr.length];
         for (int i = 0; i < arr.length; i++) {
+            // 最大不下降子序列长度 至少为1
             dp[i] = 1;
             for (int j = 0; j < i; j++) {
                 if (arr[j] <= arr[i] && (dp[j] + 1 > dp[i])) {

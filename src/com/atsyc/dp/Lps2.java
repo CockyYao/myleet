@@ -16,6 +16,28 @@ public class Lps2 {
         if (s == null || s.equals("")) {
             return s;
         }
+        // dp[i][j]代表 i 到 j的字符串是否为回文的
+        // f(i,j) = true --> f(i+1,j-1)=true && s[i]==s[j]
+        // f(i,j) = true , i == j
+        // f(i,j) = true , j = i+1 && s[i]==s[j]
+
+        /*
+         *  递推公式：
+         *
+         *  i ---> j   dp[i][j] = true 则代表i到j是回文，false则不是
+         *  dp[i][j] = ?
+         *      if(arr[i] == arr[j]){
+         *          if(j=i+1){
+         *              dp[i][j]=true
+         *          }else{
+         *              dp[i][j] = dp[i+1][j-1]
+         *          }
+         *      }
+         *      else
+         *          dp[i][j] = false
+         *
+         *
+         * */
         boolean[][] dp = new boolean[s.length()][s.length()];
         int from = 0;
         int end = 0;
