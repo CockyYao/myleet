@@ -2,13 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="71dc6300-55ac-47d0-9179-0a6718b06cf2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/atsyc/list/AddTwoNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/atsyc/list/GetKthFromEnd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/atsyc/list/IsPalindrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/atsyc/list/MergeTwoLists.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/atsyc/list/ReverseBetween.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/atsyc/list/ReversePrint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/atsyc/lru/LRUCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/atsyc/backtrack/CombinationSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/atsyc/backtrack/CombinationSum2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/atsyc/backtrack/CombinationSum3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/atsyc/backtrack/CombinationSum4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/atsyc/backtrack/Combine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/atsyc/backtrack/LetterCombines.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/atsyc/backtrack/Partition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/atsyc/backtrack/Partition2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/atsyc/backtrack/Permutations2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/atsyc/day/LongestConsecutive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/atsyc/dp/1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/atsyc/dp/EditDistance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/atsyc/list/HasCycle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/atsyc/list/OddEvenList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/atsyc/list/Partition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/atsyc/multithread/Foo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/atsyc/multithread/ZeroEvenOdd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/atsyc/tree/IsBlanced.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/atsyc/tree/TreeNode.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,102 +34,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/atsyc/list/GetKthFromEnd.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="12" column="29" lean-forward="true" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/atsyc/list/IsPalindrome.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="724">
-              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/atsyc/list/MergeTwoLists.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="8" column="25" lean-forward="true" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/atsyc/list/ReversePrint.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/atsyc/list/AddTwoNumbers.java">
+        <entry file="file://$PROJECT_DIR$/src/com/atsyc/dp/1.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="145">
-              <caret line="8" selection-start-line="8" selection-end-line="28" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/lang/Math.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="77">
-              <caret line="648" column="36" lean-forward="true" selection-start-line="648" selection-start-column="36" selection-end-line="648" selection-end-column="36" />
-              <folding>
-                <element signature="e#49043#49044#0" expanded="true" />
-                <element signature="e#49082#49083#0" expanded="true" />
-                <element signature="e#52232#52233#0" expanded="true" />
-                <element signature="e#52271#52272#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/atsyc/list/ReverseBetween.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-404">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/atsyc/list/ListNode.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-              <folding>
-                <element signature="e#189#190#0" expanded="true" />
-                <element signature="e#215#216#0" expanded="true" />
-                <element signature="e#250#251#0" expanded="true" />
-                <element signature="e#280#281#0" expanded="true" />
-                <element signature="e#313#314#0" expanded="true" />
-                <element signature="e#340#341#0" expanded="true" />
-                <element signature="e#382#383#0" expanded="true" />
-                <element signature="e#414#415#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/atsyc/list/ReverseList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="8" selection-start-line="8" selection-end-line="22" selection-end-column="20" />
+            <state>
+              <caret column="21" lean-forward="true" selection-start-column="21" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -142,25 +63,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/atsyc/backtrack/PermutationString.java" />
-        <option value="$PROJECT_DIR$/src/com/atsyc/tree/preorderTraversal.java" />
-        <option value="$PROJECT_DIR$/src/com/atsyc/backtrack/GetPermutations.java" />
-        <option value="$PROJECT_DIR$/src/com/atsyc/tree/MaxPathSum.java" />
-        <option value="$PROJECT_DIR$/src/com/atsyc/tree/HasPathSum.java" />
-        <option value="$PROJECT_DIR$/src/com/atsyc/tree/PathSum.java" />
-        <option value="$PROJECT_DIR$/src/com/atsyc/day/T4.java" />
-        <option value="$PROJECT_DIR$/src/com/atsyc/tree/IsSymmetric.java" />
-        <option value="$PROJECT_DIR$/src/com/atsyc/tire/TireNode.java" />
-        <option value="$PROJECT_DIR$/src/com/atsyc/tire/TrieNode.java" />
-        <option value="$PROJECT_DIR$/src/com/atsyc/tree/InvertTree.java" />
-        <option value="$PROJECT_DIR$/src/com/atsyc/recursive/Taribonacci.java" />
-        <option value="$PROJECT_DIR$/src/com/atsyc/dp/IsSubsequence.java" />
-        <option value="$PROJECT_DIR$/src/com/atsyc/dp/nthUglyNumber.java" />
-        <option value="$PROJECT_DIR$/src/com/atsyc/bit/IsPowerOfTwo.java" />
-        <option value="$PROJECT_DIR$/src/com/atsyc/dp/CountString.java" />
-        <option value="$PROJECT_DIR$/src/com/atsyc/dp/Change.java" />
-        <option value="$PROJECT_DIR$/src/com/atsyc/tree/PostOrderTravel.java" />
-        <option value="$PROJECT_DIR$/src/com/atsyc/dp/MaxSubArray.java" />
         <option value="$PROJECT_DIR$/src/com/atsyc/dp/CoinToChange2.java" />
         <option value="$PROJECT_DIR$/src/com/atsyc/dp/CoinToChange.java" />
         <option value="$PROJECT_DIR$/src/com/atsyc/dp/NumSquare.java" />
@@ -174,13 +76,11 @@
         <option value="$PROJECT_DIR$/src/com/atsyc/slide/NumberOfSubarrays.java" />
         <option value="$PROJECT_DIR$/src/com/atsyc/slide/LengthOfLongestSubstring.java" />
         <option value="$PROJECT_DIR$/src/com/atsyc/dp/LPS.java" />
-        <option value="$PROJECT_DIR$/src/com/atsyc/dp/Lps2.java" />
         <option value="$PROJECT_DIR$/src/com/atsyc/list/ListNode.java" />
         <option value="$PROJECT_DIR$/src/com/atsyc/list/ReverseList.java" />
         <option value="$PROJECT_DIR$/src/com/atsyc/day/MaxProfix.java" />
         <option value="$PROJECT_DIR$/src/com/atsyc/slide/T.java" />
         <option value="$PROJECT_DIR$/src/com/atsyc/sum/T.java" />
-        <option value="$PROJECT_DIR$/src/com/atsyc/sum/TwoSum.java" />
         <option value="$PROJECT_DIR$/src/com/atsyc/sum/FourSum.java" />
         <option value="$PROJECT_DIR$/src/com/atsyc/sum/ThreeSum.java" />
         <option value="$PROJECT_DIR$/src/com/atsyc/slide/LongestCommonPrefix.java" />
@@ -193,13 +93,35 @@
         <option value="$PROJECT_DIR$/src/com/atsyc/list/GetKthFromEnd.java" />
         <option value="$PROJECT_DIR$/src/com/atsyc/list/ReverseBetween.java" />
         <option value="$PROJECT_DIR$/src/com/atsyc/list/AddTwoNumbers.java" />
+        <option value="$PROJECT_DIR$/src/com/atsyc/list/OddEvenList.java" />
+        <option value="$PROJECT_DIR$/src/com/atsyc/dp/Lps2.java" />
+        <option value="$PROJECT_DIR$/src/com/atsyc/sum/TwoSum.java" />
+        <option value="$PROJECT_DIR$/src/com/atsyc/backtrack/Permutations2.java" />
+        <option value="$PROJECT_DIR$/src/com/atsyc/list/HasCycle.java" />
+        <option value="$PROJECT_DIR$/src/com/atsyc/list/Partition.java" />
+        <option value="$PROJECT_DIR$/src/com/atsyc/backtrack/CombinationSum.java" />
+        <option value="$PROJECT_DIR$/src/com/atsyc/backtrack/CombinationSum3.java" />
+        <option value="$PROJECT_DIR$/src/com/atsyc/backtrack/CombinationSum4.java" />
+        <option value="$PROJECT_DIR$/src/com/atsyc/backtrack/CombinationSum2.java" />
+        <option value="$PROJECT_DIR$/src/com/atsyc/backtrack/Combine.java" />
+        <option value="$PROJECT_DIR$/src/com/atsyc/backtrack/LetterCombines.java" />
+        <option value="$PROJECT_DIR$/src/com/atsyc/multithread/Foo.java" />
+        <option value="$PROJECT_DIR$/src/com/atsyc/multithread/ZeroEvenOdd.java" />
+        <option value="$PROJECT_DIR$/src/com/atsyc/tree/TreeNode.java" />
+        <option value="$PROJECT_DIR$/src/com/atsyc/tree/IsBlanced.java" />
+        <option value="$PROJECT_DIR$/src/com/atsyc/day/LongestConsecutive.java" />
+        <option value="$PROJECT_DIR$/src/com/atsyc/backtrack/Partition.java" />
+        <option value="$PROJECT_DIR$/src/com/atsyc/backtrack/Partition2.java" />
+        <option value="$PROJECT_DIR$/src/com/atsyc/dp/EditDistance.java" />
+        <option value="$PROJECT_DIR$/src/com/atsyc/dp/1.txt" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="22" />
-    <option name="width" value="1920" />
-    <option name="height" value="982" />
+    <option name="x" value="39" />
+    <option name="y" value="71" />
+    <option name="width" value="1310" />
+    <option name="height" value="868" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -207,7 +129,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -239,7 +160,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="atsyc" type="462c0819:PsiDirectoryNode" />
-              <item name="list" type="462c0819:PsiDirectoryNode" />
+              <item name="dp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="myleet" type="b2602c69:ProjectViewProjectNode" />
@@ -279,10 +200,39 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="myleet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myleet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
+              <item name="locks" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myleet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="function" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -306,13 +256,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LRUCache">
-    <configuration name="FourSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.atsyc.sum.FourSum" />
+  <component name="RunManager" selected="Application.Partition2">
+    <configuration name="CombinationSum3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.atsyc.backtrack.CombinationSum3" />
       <module name="myleet" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.atsyc.sum.*" />
+          <option name="PATTERN" value="com.atsyc.backtrack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -320,12 +270,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LRUCache" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.atsyc.lru.LRUCache" />
+    <configuration name="CombinationSum4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.atsyc.backtrack.CombinationSum4" />
       <module name="myleet" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.atsyc.lru.*" />
+          <option name="PATTERN" value="com.atsyc.backtrack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -333,12 +283,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LengthOfLongestSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.atsyc.slide.LengthOfLongestSubstring" />
+    <configuration name="Partition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.atsyc.backtrack.Partition" />
       <module name="myleet" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.atsyc.sum.*" />
+          <option name="PATTERN" value="com.atsyc.backtrack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -346,12 +296,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestCommonPrefix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.atsyc.slide.LongestCommonPrefix" />
+    <configuration name="Partition2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.atsyc.backtrack.Partition2" />
       <module name="myleet" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.atsyc.slide.*" />
+          <option name="PATTERN" value="com.atsyc.backtrack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -359,12 +309,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MultiplyString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.atsyc.string.MultiplyString" />
+    <configuration name="ZeroEvenOdd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.atsyc.multithread.ZeroEvenOdd" />
       <module name="myleet" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.atsyc.string.*" />
+          <option name="PATTERN" value="com.atsyc.multithread.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -373,19 +323,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.LengthOfLongestSubstring" />
-      <item itemvalue="Application.FourSum" />
-      <item itemvalue="Application.LongestCommonPrefix" />
-      <item itemvalue="Application.MultiplyString" />
-      <item itemvalue="Application.LRUCache" />
+      <item itemvalue="Application.CombinationSum3" />
+      <item itemvalue="Application.CombinationSum4" />
+      <item itemvalue="Application.ZeroEvenOdd" />
+      <item itemvalue="Application.Partition" />
+      <item itemvalue="Application.Partition2" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LRUCache" />
-        <item itemvalue="Application.MultiplyString" />
-        <item itemvalue="Application.LongestCommonPrefix" />
-        <item itemvalue="Application.FourSum" />
-        <item itemvalue="Application.LengthOfLongestSubstring" />
+        <item itemvalue="Application.Partition2" />
+        <item itemvalue="Application.Partition" />
+        <item itemvalue="Application.ZeroEvenOdd" />
+        <item itemvalue="Application.CombinationSum4" />
+        <item itemvalue="Application.CombinationSum3" />
       </list>
     </recent_temporary>
   </component>
@@ -429,18 +379,29 @@
       <workItem from="1603110089820" duration="280000" />
       <workItem from="1603157556655" duration="4731000" />
       <workItem from="1603167315544" duration="2240000" />
-      <workItem from="1603196849141" duration="6274000" />
+      <workItem from="1603196849141" duration="8666000" />
+      <workItem from="1603508576609" duration="8000" />
+      <workItem from="1604071373809" duration="1344000" />
+      <workItem from="1604107115332" duration="5451000" />
+      <workItem from="1604974066559" duration="2207000" />
+      <workItem from="1605017836726" duration="646000" />
+      <workItem from="1605058646810" duration="701000" />
+      <workItem from="1605094936316" duration="9885000" />
+      <workItem from="1605318426234" duration="3689000" />
+      <workItem from="1605624076614" duration="1206000" />
+      <workItem from="1605664925464" duration="5068000" />
+      <workItem from="1605692716031" duration="2642000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="123320000" />
+    <option name="totallyTimeSpent" value="158559000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1920" height="982" extended-state="0" />
+    <frame x="39" y="71" width="1310" height="868" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2489339" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25197473" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="JRebel" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
@@ -451,12 +412,12 @@
       <window_info id="Alibaba Cloud Explorer" order="8" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.14719102" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.23168316" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.38426965" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.21649484" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.18685567" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.35955057" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.31336406" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Run with VisualVM" order="10" />
@@ -478,7 +439,7 @@
       <window_info anchor="right" id="Alibaba Function Compute" order="8" />
       <window_info anchor="right" id="Palette&#9;" order="9" />
       <window_info anchor="right" id="Theme Preview" order="10" />
-      <window_info anchor="right" id="JRebel Setup Guide" order="11" weight="0.37526652" />
+      <window_info anchor="right" id="JRebel Setup Guide" order="11" weight="0.32464454" />
       <window_info anchor="right" id="Alibaba Log Console" order="12" />
       <window_info anchor="right" id="Jms Messenger" order="13" />
     </layout>
@@ -489,12 +450,6 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/atsyc/sum/ThreeSum.java</url>
-          <line>27</line>
-          <properties />
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/atsyc/string/MultiplyString.java</url>
           <line>63</line>
@@ -535,401 +490,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/atsyc/tree/PostOrderTravel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="609">
-          <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/atsyc/dp/CoinToChange2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1131">
-          <caret line="39" column="50" selection-start-line="39" selection-start-column="50" selection-end-line="39" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/atsyc/day/T4.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1247">
-          <caret line="43" selection-start-line="43" selection-end-line="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/atsyc/tree/preorderTraversal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="899">
-          <caret line="31" selection-start-line="31" selection-end-line="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/atsyc/slide/LongestOnes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="27" column="26" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/atsyc/slide/SlideWindow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="758">
-          <caret line="29" column="9" lean-forward="true" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/atsyc/dp/MaxSubArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="71" column="21" selection-start-line="71" selection-start-column="21" selection-end-line="71" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/atsyc/dp/nthUglyNumber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/atsyc/dp/IsSubsequence.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/lang/Integer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="657">
-          <caret line="62" column="38" selection-start-line="62" selection-start-column="38" selection-end-line="62" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/atsyc/dp/NumSquare.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="783">
-          <caret line="27" column="20" lean-forward="true" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/atsyc/dp/Cutting.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="59" column="29" lean-forward="true" selection-start-line="59" selection-start-column="29" selection-end-line="59" selection-end-column="29" />
-          <folding>
-            <element signature="e#2102#2103#0" expanded="true" />
-            <element signature="e#2151#2152#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/atsyc/dp/ClimbStair.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-114">
-          <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/atsyc/dp/Rob.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="928">
-          <caret line="32" column="18" lean-forward="true" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/atsyc/dp/CoinToChange.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="14" column="42" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/atsyc/dp/CountString.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1516">
-          <caret line="56" column="34" selection-start-line="56" selection-start-column="34" selection-end-line="56" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1321#1322#0" expanded="true" />
-            <element signature="e#1379#1380#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/atsyc/tire/TrieNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1856">
-          <caret line="64" column="4" selection-start-line="64" selection-start-column="4" selection-end-line="64" selection-end-column="4" />
-          <folding>
-            <element signature="e#206#207#0" expanded="true" />
-            <element signature="e#245#246#0" expanded="true" />
-            <element signature="e#1403#1404#0" expanded="true" />
-            <element signature="e#1449#1450#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/atsyc/bit/IsPowerOfTwo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="23" column="21" lean-forward="true" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
-          <folding>
-            <element signature="e#222#223#0" expanded="true" />
-            <element signature="e#267#268#0" expanded="true" />
-            <element signature="e#326#327#0" expanded="true" />
-            <element signature="e#371#372#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/atsyc/day/T1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/atsyc/slide/Longesta.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/atsyc/backtrack/PermutationString.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/atsyc/backtrack/GetPermutations.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/atsyc/slide/NumberOfSubarrays.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1160">
-          <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/atsyc/slide/MinSubArrayLen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="16" column="36" lean-forward="true" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/atsyc/dp/Lps3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="609">
-          <caret line="21" column="15" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/atsyc/dp/LPS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="58" column="23" selection-start-line="58" selection-start-column="23" selection-end-line="58" selection-end-column="23" />
-          <folding>
-            <element signature="e#330#331#0" expanded="true" />
-            <element signature="e#375#376#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/atsyc/dp/Lps2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1131">
-          <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/atsyc/dp/LIS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="18" column="46" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/atsyc/sum/TwoSum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/atsyc/sum/ThreeSum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="876">
-          <caret line="42" column="14" selection-start-line="42" selection-start-column="14" selection-end-line="42" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/atsyc/sum/FourSum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="2131" column="19" selection-start-line="2131" selection-start-column="19" selection-end-line="2131" selection-end-column="19" />
-          <folding>
-            <element signature="e#82971#82972#0" expanded="true" />
-            <element signature="e#83020#83021#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/atsyc/string/MultiplyString.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="16" column="31" lean-forward="true" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
-          <folding>
-            <element signature="e#1086#1087#0" expanded="true" />
-            <element signature="e#1111#1112#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/atsyc/slide/LongestCommonPrefix.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="607">
-          <caret line="55" column="44" selection-start-line="55" selection-start-column="44" selection-end-line="55" selection-end-column="44" />
-          <folding>
-            <element signature="e#1012#1013#0" expanded="true" />
-            <element signature="e#1054#1055#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/atsyc/slide/LengthOfLongestSubstring.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/atsyc/day/MaxProfix.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="10" column="54" lean-forward="true" selection-start-line="10" selection-start-column="54" selection-end-line="10" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/LinkedHashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="300" column="58" lean-forward="true" selection-start-line="300" selection-start-column="58" selection-end-line="300" selection-end-column="58" />
-          <folding>
-            <element signature="e#19667#19668#0" expanded="true" />
-            <element signature="e#19695#19696#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/Map.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="138" column="8" selection-start-line="138" selection-start-column="8" selection-end-line="138" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/atsyc/lru/LRUCache.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="783">
-          <caret line="31" column="17" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#359#360#0" expanded="true" />
-            <element signature="e#408#409#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/atsyc/backtrack/RestoreIpAddress.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1501">
-          <caret line="54" column="44" lean-forward="true" selection-start-line="54" selection-start-column="44" selection-end-line="54" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/atsyc/backtrack/Permutations.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="485">
-          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/Stack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="52" column="11" selection-start-line="52" selection-start-column="11" selection-end-line="52" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/atsyc/list/IsPalindrome.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="724">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/atsyc/list/ReverseList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="8" selection-start-line="8" selection-end-line="22" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/atsyc/list/GetKthFromEnd.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="12" column="29" lean-forward="true" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/atsyc/list/ReverseBetween.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-404">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/atsyc/list/MergeTwoLists.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
@@ -943,23 +503,6 @@
           <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/atsyc/list/ListNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="e#189#190#0" expanded="true" />
-            <element signature="e#215#216#0" expanded="true" />
-            <element signature="e#250#251#0" expanded="true" />
-            <element signature="e#280#281#0" expanded="true" />
-            <element signature="e#313#314#0" expanded="true" />
-            <element signature="e#340#341#0" expanded="true" />
-            <element signature="e#382#383#0" expanded="true" />
-            <element signature="e#414#415#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -979,8 +522,433 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/atsyc/list/AddTwoNumbers.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="17" column="46" lean-forward="true" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/atsyc/list/OddEvenList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="14" column="29" lean-forward="true" selection-start-line="14" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/atsyc/dp/ClimbStair.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/atsyc/dp/NumSquare.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="145">
-          <caret line="8" selection-start-line="8" selection-end-line="28" selection-end-column="20" />
+          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/atsyc/dp/MaxSubArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2059">
+          <caret line="71" column="21" selection-start-line="71" selection-start-column="21" selection-end-line="71" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/atsyc/dp/CountString.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1316">
+          <caret line="56" column="34" selection-start-line="56" selection-start-column="34" selection-end-line="56" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1321#1322#0" expanded="true" />
+            <element signature="e#1379#1380#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/atsyc/dp/LPS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1469">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#330#331#0" expanded="true" />
+            <element signature="e#375#376#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/atsyc/dp/Lps3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="5" selection-start-line="5" selection-end-line="6" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/atsyc/dp/Lps2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1187">
+          <caret line="53" column="21" lean-forward="true" selection-start-line="53" selection-start-column="21" selection-end-line="53" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/atsyc/dp/LIS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="580">
+          <caret line="20" column="7" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/atsyc/slide/LongestOnes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="582">
+          <caret line="27" column="26" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/atsyc/slide/MinSubArrayLen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="16" column="30" lean-forward="true" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/atsyc/slide/LengthOfLongestSubstring.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="582">
+          <caret line="55" column="39" lean-forward="true" selection-start-line="55" selection-start-column="39" selection-end-line="55" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/atsyc/slide/LongestCommonPrefix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="29">
+          <caret line="15" column="27" lean-forward="true" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+          <folding>
+            <element signature="e#1012#1013#0" expanded="true" />
+            <element signature="e#1054#1055#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/atsyc/slide/Longesta.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="36" column="18" lean-forward="true" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/atsyc/recursive/Fib.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="164" column="12" selection-start-line="164" selection-start-column="12" selection-end-line="164" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/atsyc/sum/FourSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-391">
+          <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/lang/Integer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="62" column="38" selection-start-line="62" selection-start-column="38" selection-end-line="62" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/atsyc/sum/TwoSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/atsyc/sum/ThreeSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="696">
+          <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="608" column="27" selection-start-line="608" selection-start-column="27" selection-end-line="608" selection-end-column="27" />
+          <folding>
+            <element signature="e#11804#16002#0" />
+            <element signature="e#11804#21933#0" />
+            <element signature="e#21939#22163#0" />
+            <element signature="e#22211#22332#0" />
+            <element signature="e#22380#22425#0" />
+            <element signature="e#22463#22639#0" />
+            <element signature="e#22710#22884#0" />
+            <element signature="e#22972#23426#0" />
+            <element signature="e#23671#23869#0" />
+            <element signature="e#23930#24091#0" />
+            <element signature="e#24530#24716#0" />
+            <element signature="e#25155#25398#0" />
+            <element signature="e#25523#25618#0" />
+            <element signature="e#25999#26245#0" />
+            <element signature="e#26561#26774#0" />
+            <element signature="e#28067#28345#0" />
+            <element signature="e#29506#29598#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/atsyc/slide/SlideWindow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/atsyc/list/HasCycle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/atsyc/list/ListNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+          <folding>
+            <element signature="e#189#190#0" expanded="true" />
+            <element signature="e#215#216#0" expanded="true" />
+            <element signature="e#250#251#0" expanded="true" />
+            <element signature="e#280#281#0" expanded="true" />
+            <element signature="e#313#314#0" expanded="true" />
+            <element signature="e#340#341#0" expanded="true" />
+            <element signature="e#382#383#0" expanded="true" />
+            <element signature="e#414#415#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/atsyc/list/Partition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="421">
+          <caret line="17" column="31" lean-forward="true" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/atsyc/backtrack/PermutationString.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/atsyc/backtrack/GetPermutations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/atsyc/backtrack/Permutations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/atsyc/backtrack/Permutations2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="536">
+          <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/atsyc/backtrack/CombinationSum2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-106">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#back#0;class#CombinationSum2#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/atsyc/backtrack/CombinationSum3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="10" selection-start-line="10" selection-end-line="10" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/atsyc/backtrack/CombinationSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="580">
+          <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/atsyc/backtrack/CombinationSum4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="12" selection-start-line="12" selection-end-line="12" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#930#931#0" expanded="true" />
+            <element signature="e#981#982#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/atsyc/backtrack/Combine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="23" selection-start-line="23" selection-end-line="26" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/atsyc/backtrack/LetterCombines.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/function/IntConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="41" column="13" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/atsyc/multithread/Foo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="609">
+          <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/atsyc/multithread/ZeroEvenOdd.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="27" column="25" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#157#158#0" expanded="true" />
+            <element signature="e#183#184#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/atsyc/tree/HasPathSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="549">
+          <caret line="39" selection-start-line="39" selection-end-line="45" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/atsyc/tree/TreeNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/atsyc/tree/IsBlanced.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="17" column="42" lean-forward="true" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/atsyc/backtrack/Partition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="63" selection-start-line="63" selection-end-line="63" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/atsyc/backtrack/Partition2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="28" selection-start-column="28" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/atsyc/dp/EditDistance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
+          <folding>
+            <element signature="e#1153#1154#0" expanded="true" />
+            <element signature="e#1205#1206#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/atsyc/dp/Cutting.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="851">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/atsyc/day/LongestConsecutive.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="667">
+          <caret line="29" column="13" lean-forward="true" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/atsyc/dp/1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="21" lean-forward="true" selection-start-column="21" selection-end-column="21" />
         </state>
       </provider>
     </entry>
